@@ -1,0 +1,40 @@
+name: gnrllybttr_sidebar
+description: "A shadcn inspired sidebar, built for flutter"
+version: 1.0.0
+homepage: https://github.com/GnrllyBttr/GnrllyBttrSidebar
+repository: https://github.com/GnrllyBttr/GnrllyBttrSidebar
+issue_tracker: https://github.com/GnrllyBttr/GnrllyBttrSidebar/issues
+documentation: https://github.com/GnrllyBttr/GnrllyBttrSidebar/blob/main/README.md
+
+topics:
+  - sidebar
+  - user-interface
+  - responsive
+
+environment:
+  sdk: ^3.6.2
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  intl: ^0.19.0
+
+dev_dependencies:
+  build_runner: ^2.4.14
+
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+  import_sorter: ^4.6.0
+
+  mockito: ^5.4.5
+
+flutter:
+  uses-material-design: true
+
+import_sorter:
+  comments: true
+  emojis: true

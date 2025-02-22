@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "configurations": [
+    {
+      "name": "Example (iOS)",
+      "type": "dart",
+      "request": "launch",
+      "program": "example/lib/main.dart",
+      "deviceId": "011510C6-DE06-4B37-8180-FEFED4F55455"
+    },
+    {
+      "name": "Example (Web)",
+      "type": "dart",
+      "request": "launch",
+      "program": "example/lib/main.dart",
+      "args": ["-d", "chrome"]
+    },
+    {
+      "name": "Example (macOS)",
+      "type": "dart",
+      "request": "launch",
+      "program": "example/lib/main.dart",
+      "deviceId": "macos"
+    }
+  ]
+}

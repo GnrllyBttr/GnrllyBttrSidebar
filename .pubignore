@@ -1,0 +1,6 @@
+.github/
+.run/
+.vscode/
+coverage/
+example/
+scripts/
